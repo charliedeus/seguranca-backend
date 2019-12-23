@@ -18,6 +18,7 @@ module.exports = {
       },
       cpf: {
         type: Sequelize.STRING,
+        unique: true,
       },
       active: {
         type: Sequelize.BOOLEAN,
